@@ -1,0 +1,2 @@
+C:\PCF\Controls\TSLinearInputControl\obj\Debug\tslinearinputcontrol.pcfprojAssemblyReference.cache
+C:\PCF\Controls\TSLinearInputControl\obj\Debug\tslinearinputcontrol.pcfproj.CoreCompileInputs.cache
