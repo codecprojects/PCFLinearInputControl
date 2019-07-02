@@ -40,7 +40,7 @@ public init(context: ComponentFramework.Context<IInputs>, notifyOutputChanged: (
 	this.inputElement.addEventListener("input",this._refreshData);
 	// setting the max and min values that can be selected for the control.
 	// Setting it as eligible age to work in Ireland
-	this.inputElement.setAttribute("min","16 ");
+	this.inputElement.setAttribute("min","16 ");  // this can be done by setting the min/max of the field
 	this.inputElement.setAttribute("max","66");
 	// Added this code to set the min/max vales that are displayed on the control
 	this.inputElement.min = "1";
