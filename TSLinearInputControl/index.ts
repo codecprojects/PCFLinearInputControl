@@ -44,7 +44,7 @@ public init(context: ComponentFramework.Context<IInputs>, notifyOutputChanged: (
 	this.inputElement.setAttribute("max","66");
 	// Added this code to set the min/max vales that are displayed on the control
 	this.inputElement.min = "1";
-	this.inputElement.max = "130";
+	this.inputElement.max = "135";
 	this.inputElement.setAttribute("class","linearslider");
 	this.inputElement.setAttribute("id","linearrangeinput");
 	// creating a HTML label element that shows the value that is set on the linear range control
