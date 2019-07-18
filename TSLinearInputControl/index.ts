@@ -2,7 +2,7 @@ import { IInputs, IOutputs } from "./generated/ManifestTypes";
 export class TSLinearInputControl implements ComponentFramework.StandardControl<IInputs, IOutputs> {
 // Value of the field is stored and used inside the control 
 private _value: number;
-// PowerApps component framework framework delegate which will be assigned to this object which would be called whenever an update happens. 
+// PowerApps component framework delegates which will be assigned to this object which would be called whenever an update happens. 
 private _notifyOutputChanged: () => void;
 // label element created as part of this control
 private labelElement: HTMLLabelElement;
@@ -42,7 +42,7 @@ public init(context: ComponentFramework.Context<IInputs>, notifyOutputChanged: (
 	// Setting it as eligible age to work in Ireland
 	this.inputElement.setAttribute("min","16 ");  // this can be done by setting the min/max of the field
 	this.inputElement.setAttribute("max","66");
-	// Added this code to set the min/max vales that are displayed on the control
+	// Added this code to set the min/max values that are accessible on the control
 	this.inputElement.min = "1";
 	this.inputElement.max = "135";
 	this.inputElement.setAttribute("class","linearslider");
